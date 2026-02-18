@@ -7,20 +7,20 @@ class Dotenc < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/ivanfilhoz/dotenc/releases/download/v0.5.3/dotenc-darwin-arm64.tar.gz"
-      sha256 "764ca7032ba48108fa3a4d026b8c504cc221c64cfc04734a7e9bb25d8f3bb6c1"
+      sha256 "53711c3b7b24c2763d06d35dc3594b9aa0531b911c678f9be8f4947fb3430258"
     else
       url "https://github.com/ivanfilhoz/dotenc/releases/download/v0.5.3/dotenc-darwin-x64.tar.gz"
-      sha256 "f1d09aecb4f8158389d6376d4324b57b31ac128da05fe47350017aa3753b29d4"
+      sha256 "313f7fdb95e0de97005a69c365d19cb14b275f1ef4aecb117bb4612f1fb74c8f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/ivanfilhoz/dotenc/releases/download/v0.5.3/dotenc-linux-arm64.tar.gz"
-      sha256 "cbe7ee95583061157f5b672774ecccb5b0ce537359cb0136db55203f5292f185"
+      sha256 "73d49380c8a69e85383fc2327a7175cb2fc1f7e52d6e560c7222b1722a85c98b"
     else
       url "https://github.com/ivanfilhoz/dotenc/releases/download/v0.5.3/dotenc-linux-x64.tar.gz"
-      sha256 "785262c74d16ff46c93700911f4ce861358067f02ec4d357d08a57ec112c602f"
+      sha256 "9f8623e0ffea654c7c26f855f95fc1f1a0ad71c0affbdd023bf54f0cadef7d36"
     end
   end
 
