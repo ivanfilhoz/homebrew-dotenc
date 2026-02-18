@@ -1,26 +1,26 @@
 class Dotenc < Formula
   desc "Git-native encrypted environments powered by your SSH keys"
   homepage "https://github.com/ivanfilhoz/dotenc"
-  version "0.5.2"
+  version "0.5.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/ivanfilhoz/dotenc/releases/download/v0.5.2/dotenc-darwin-arm64.tar.gz"
-      sha256 "b5582f10c26913a1cd21e5437bd330e3b56d56a0d17f1d9c7163b6b08473ca47"
+      url "https://github.com/ivanfilhoz/dotenc/releases/download/v0.5.3/dotenc-darwin-arm64.tar.gz"
+      sha256 "764ca7032ba48108fa3a4d026b8c504cc221c64cfc04734a7e9bb25d8f3bb6c1"
     else
-      url "https://github.com/ivanfilhoz/dotenc/releases/download/v0.5.2/dotenc-darwin-x64.tar.gz"
-      sha256 "a89dc008f3659e846c57ca634a17bdde2d76dd2a821160c06d0aa2ba30b55b6f"
+      url "https://github.com/ivanfilhoz/dotenc/releases/download/v0.5.3/dotenc-darwin-x64.tar.gz"
+      sha256 "f1d09aecb4f8158389d6376d4324b57b31ac128da05fe47350017aa3753b29d4"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/ivanfilhoz/dotenc/releases/download/v0.5.2/dotenc-linux-arm64.tar.gz"
-      sha256 "a3d43296455fe90c0950bf5541ec9e91bdf337c48396b284d4ad168df353399e"
+      url "https://github.com/ivanfilhoz/dotenc/releases/download/v0.5.3/dotenc-linux-arm64.tar.gz"
+      sha256 "cbe7ee95583061157f5b672774ecccb5b0ce537359cb0136db55203f5292f185"
     else
-      url "https://github.com/ivanfilhoz/dotenc/releases/download/v0.5.2/dotenc-linux-x64.tar.gz"
-      sha256 "9e6e6ef957c6681d725abbdf15cf47382e8f7cac0774190226c2262ee1ca6006"
+      url "https://github.com/ivanfilhoz/dotenc/releases/download/v0.5.3/dotenc-linux-x64.tar.gz"
+      sha256 "785262c74d16ff46c93700911f4ce861358067f02ec4d357d08a57ec112c602f"
     end
   end
 
